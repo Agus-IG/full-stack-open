@@ -1,3 +1,5 @@
+## Ejercicio 4
+
 ```mermaid
 sequenceDiagram
     participant N as Navegador
@@ -40,3 +42,4 @@ sequenceDiagram
     S-->>-N: Datos sin procesar
 
     Note over N: Entonces en la pagina se mostrara la nota que <br> cargo el usuario llamada "prueba"
+```
