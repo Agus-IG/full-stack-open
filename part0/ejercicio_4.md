@@ -38,3 +38,5 @@ sequenceDiagram
 
     N->>+S:HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
     S-->>-N: Datos sin procesar
+
+    Note over N: Entonces en la pagina se mostrara la nota que <br> cargo el usuario llamada "prueba"
